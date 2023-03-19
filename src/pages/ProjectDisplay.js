@@ -4,6 +4,10 @@ import { ProjectList } from '../helpers/ProjectList';
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
+function openInNewTab(url) {
+  window.open(url, '_blank', 'noreferrer');
+};
+
 function ProjectDisplay() {
     const {id} = useParams();
     const project = ProjectList[id];
@@ -13,7 +17,7 @@ function ProjectDisplay() {
     <p>
         <b>Skills:</b> {project.skills}
     </p>
-    <GithubIcon />
+    <GithubIcon onClick={() => openInNewTab(project.link)}/>
   </div>
   );
 }

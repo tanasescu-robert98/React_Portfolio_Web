@@ -26,22 +26,20 @@ function Home() {
       <h1> Skills</h1>
       <ol className='list'>
         <li className="item">
-          <h2> Front-End</h2>
+          <h2> Programming Skills</h2>
           <span> 
-          ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-          Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+          C, C++, C#, Java, JavaScript, HTML, CSS, Python, Oracle SQL, ReactJS
           </span>
         </li>
         <li className="item">
-          <h2> Back-End</h2>
+          <h2> Digital Skills</h2>
           <span> 
-          NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-          MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+          Experienced user with Microsoft Office, Linux Operating Systems, Davinci Resolve, Unity Game Engine
           </span>
         </li>
         <li className="item">
           <h2> Languages</h2>
-          <span> JavaScript, Java, Python, C#, C, C++, TypeScript, Go </span>
+          <span> Romanian (mother tongue), English (First Certificate B2), French</span>
         </li>
       </ol>
       </div>

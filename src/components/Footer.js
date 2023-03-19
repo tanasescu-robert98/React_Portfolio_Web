@@ -18,9 +18,9 @@ function Footer() {
             <LinkedInIcon onClick={() => openInNewTab('https://www.linkedin.com/in/tanasescurobert98/')}/>
             <GithubIcon onClick={() => openInNewTab('https://github.com/tanasescu-robert98')}/>
             <YoutubeIcon onClick={() => openInNewTab('https://www.youtube.com/channel/UCyUcG_2ET2kHiaNDpkkD5yQ')}/>
-            <FacebookIcon />
+            <FacebookIcon onClick={() => openInNewTab('https://www.facebook.com/andrey.pc.1')}/>
         </div>
-        <p> &copy; 2023 robytupa.com</p>
+        <p> &copy; 2023 tanasescu-robert98</p>
     </div>
   )
 }
